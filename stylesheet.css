@@ -2,18 +2,21 @@ h1 {
     color: blue;
 }
 
-section {
-    width: 100px;
-    height: 20px;
-    border: 1pt solid black;
-    margin: 5px;
-    display: flex;
 
+section {
+    width: 50vh;
+    height: 8vh;
+    border: 1pt solid black;
+    display: flex;
+    box-sizing: border-box;
+    /* pointer-events: none; */
 }
 
 article {
-    width: 10px;
-    height: 10px;
-    border: 1pt black solid;
-    margin: 5px
+    width: 12.5%;
+    box-sizing: border-box;
+    height: 100%;
+    border: 1pt green solid;
+    background-color: darkred;
+    
 }
