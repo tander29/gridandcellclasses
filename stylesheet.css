@@ -1,0 +1,19 @@
+h1 {
+    color: blue;
+}
+
+section {
+    width: 100px;
+    height: 20px;
+    border: 1pt solid black;
+    margin: 5px;
+    display: flex;
+
+}
+
+article {
+    width: 10px;
+    height: 10px;
+    border: 1pt black solid;
+    margin: 5px
+}
